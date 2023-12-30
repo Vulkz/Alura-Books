@@ -1,0 +1,13 @@
+.contato {
+    background: var(--branco);
+    padding: 1em;
+}
+
+.contato__titulo {
+    background: var(--azul-degrade);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+    font-size: 18px;
+}
