@@ -89,7 +89,7 @@
 
     .swiper-button-prev,
     .swiper-button-next {
-        --swiper-navigation-size: 1.5em;
+        --swiper-navigation-size: 1em;
         --swiper-navigation-sides-offset: 0px;
         color: var(--branco);
         text-align: center;
