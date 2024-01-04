@@ -73,3 +73,35 @@
     text-decoration: none;
     color: var(--branco);
 }
+
+@media screen and (min-width: 1024px) {
+    .carrossel__titulo {
+        font-size: 26px;
+    }
+
+    .swiper-pagination {
+        margin: 2em 0 3em 0;
+    }
+
+    .swiper {
+        width: 60%;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        --swiper-navigation-size: 1.5em;
+        --swiper-navigation-sides-offset: 0px;
+        color: var(--branco);
+        text-align: center;
+        display: block;
+        background: var(--azul-degrade);
+        padding: 1em 1.2em;
+        border-radius: 100%;
+        top: 60%;
+    }
+
+    .card {
+        width: 40%;
+        margin: 2em auto;
+    }
+}
