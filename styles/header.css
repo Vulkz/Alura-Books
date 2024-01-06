@@ -32,6 +32,14 @@
     top: 100%;
 }
 
+.container__botao:checked ~ .container__rotulo>.cabecalho__menu-hamburguer{
+    background-image: url("../imagens/MenuAberto.svg");
+}
+
+.container__botao:checked ~ .container__rotulo {
+    background: var(--azul-degrade);
+}
+
 .container__botao:checked ~ .lista-menu {
     z-index: 2;
     display: block;
@@ -94,9 +102,23 @@
         display: flex;
     }
 
+    .opcoes__botao:checked ~ .opcoes__rotulo > .opcoes__item {
+        background: var(--azul-degrade);
+        color: var(--branco);
+    }
+
     .opcoes__item {
-        padding: 0 1em;
+        cursor: pointer;
+        padding: 2em 1em;
         text-transform: uppercase;
+    }
+
+    .lista-menu__item:hover {
+        background: var(--azul-degrade);
+    }
+
+    .lista-menu__item:hover > .lista-menu__link {
+        -webkit-text-fill-color: var(--branco);
     }
 
     .opcoes__link {
